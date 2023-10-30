@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: 'italianno'; 
+    src: url('alumnisanscollegiateone-regular-webfont.woff') format('woff'), 
+         url('alumnisanscollegiateone-regular-webfont.woff2') format('woff2'); 
+    font-style: italic; 
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#nav-tab{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: black;
+    justify-content: center;
+    align-items: end;
+}
+#nav-tab button{
+    height: 30px;
+    margin: 0px 20px 3px 20px;
+    color: white;
+    background-color: black;
+    border: black;
+    font-size: 16px;
+    
+}
+#nav-tab button:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+main{
+    margin: auto;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pizzas{
+    padding: 10px;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    background: black;
+}
+
+/* for pizzas */ 
+.img-style{ 
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+/* Ends here */
+.page-content-span{
+    font-family: 'italianno', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 100;
+}
+.page-content{
+    display: block; 
+    margin-top: -50px;
+}
+.page-content p{
+    margin-top: 20px;
+}
+.p-contact{
+    display: block;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+footer a{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: rgb(169, 152, 185);
+}
